@@ -106,6 +106,8 @@ project:
     - file: citing.md
     - file: version_history.md
 site:
+  # Base URL when served as an RTD subproject (fixes absolute asset paths)
+  path: /projects/ngff-spec
   options:
     logo: https://www.openmicroscopy.org/img/logos/ome-logomark.svg
     folders: true
